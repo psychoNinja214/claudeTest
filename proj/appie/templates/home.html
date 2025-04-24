@@ -35,23 +35,33 @@
             </aside>
         </div>
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Barbershop website</h3>
-                <div class="project-image">
-                    <img src="{% static 'images/barber.png' %}" alt="Your Profile Image">
-                </div>
-                <p>i built a website for a barbershop</p>
-            </div>
-            <div class="project">
-                <h3>Cop n Shop</h3>
-                <div class="project-image">
-                    <img src="{% static 'images/shop.png' %}" alt="Your Profile Image">
-                </div>
-                <p>website to cop the most dankest substances</p>
-            </div>
-        </section>
+        <div class="section">
+          <h2>Product Carousel</h2>
+          <div class="carousel-container" id="carousel-1">
+              <img class="carousel-image active" src="{% static 'images/barber.png' %}" alt="Product 1">
+              <img class="carousel-image active" src="{% static 'images/about.png' %}" alt="Product 2">
+              <img class="carousel-image active" src="{% static 'images/gallery.png' %}" alt="Product 3">
+              <img class="carousel-image active" src="{% static 'images/contact.png' %}" alt="Product 4">
+              
+              <button class="carousel-arrow prev">&#10094;</button>
+              <button class="carousel-arrow next">&#10095;</button>
+              
+              <div class="carousel-dots"></div>
+          </div>
+      </div>
+      
+      <div class="section">
+          <h2>Featured Gallery</h2>
+          <div class="carousel-container" id="carousel-2">
+              <img class="carousel-image active" src="{% static 'images/shop.png' %}" alt="Gallery 1">
+              <img class="carousel-image active" src="{% static 'images/cubes.png' %}" alt="Gallery 2">
+              
+              <button class="carousel-arrow prev">&#10094;</button>
+              <button class="carousel-arrow next">&#10095;</button>
+              
+              <div class="carousel-dots"></div>
+          </div>
+      </div>
     </main>
 
     <foot>
