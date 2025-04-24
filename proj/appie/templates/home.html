@@ -4,36 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Website</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Your Test Website</h1>
+        <h1>Alexis Tajonar Portfolio</h1>
     </header>
     <main>
-        <section>
-            <p>This is a dummy HTML site for testing purposes.</p>
-            <p>Feel free to modify and experiment with HTML and CSS here!</p>
+        <div class="about-layout">
+            <div class="profile-image">
+                <img src="{% static 'images/guapo.jpg' %}" alt="Your Profile Image">
+            </div>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio! I am a passionate web developer with a love for clean code and beautiful UI/UX design.</p>
+            </section>
+
+            <aside class="notes">
+                <h3>Interesting Notes</h3>
+                <ul>
+                    <li>🌐 Built my first website at 14</li>
+                    <li>⚡ JavaScript fan, React enthusiast</li>
+                    <li>🚀 Always learning something new</li>
+                    <li>🎨 Big on UI/UX design trends</li>
+                    <li>⋏ Arch btw</li>
+                </ul>
+            </aside>
+        </div>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Barbershop website</h3>
+                <div class="project-image">
+                    <img src="{% static 'images/barber.png' %}" alt="Your Profile Image">
+                </div>
+                <p>i built a website for a barbershop</p>
+            </div>
+            <div class="project">
+                <h3>Cop n Shop</h3>
+                <div class="project-image">
+                    <img src="{% static 'images/shop.png' %}" alt="Your Profile Image">
+                </div>
+                <p>website to cop the most dankest substances</p>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Your Company. All rights reserved.</p>
+        <p>&copy; 2025 Alexis Tajonar</p>
+        <p>ParralAlexis@gmail.com</p>
+        <p>214-734-9290</p>
     </footer>
-
     <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
+
+
+
+
+
+
