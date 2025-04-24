@@ -4,10 +4,10 @@
 
 /* ===== CSS Reset & Base Styles ===== */
 :root {
-  --primary-color: #3a86ff;
-  --secondary-color: #8338ec;
-  --accent-color: #ff006e;
-  --text-color: #2b2d42;
+  --primary-color: #000000;
+  --secondary-color: #bd0e0e;
+  --accent-color: #ff0000;
+  --text-color: #191c38;
   --light-text: #8d99ae;
   --bg-color: #f8f9fa;
   --card-bg: #ffffff;
@@ -74,7 +74,7 @@ h3 {
 
 p {
   margin-bottom: 1rem;
-  color: var(--text-color);
+  color: rgb(0, 0, 0);
 }
 
 a {
@@ -292,7 +292,7 @@ footer {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(162, 207, 0, 0.1);
   padding-top: 1.5rem;
   text-align: center;
   font-size: 0.9rem;
