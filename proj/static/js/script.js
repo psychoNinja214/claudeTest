@@ -57,12 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nextBtn.addEventListener('click', showNextImage);
         prevBtn.addEventListener('click', showPrevImage);
         
-        // Return controls to allow external control if needed
-        return {
-            showNext: showNextImage,
-            showPrev: showPrevImage,
-            showImage: showImage
-        };
+
     }
     
     // Initialize each carousel
